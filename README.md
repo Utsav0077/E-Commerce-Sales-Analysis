@@ -1,6 +1,10 @@
 📊 E-Commerce & Retail Sales Performance Dashboard
 
 End-to-End Data Analytics Project | SQL • PostgreSQL • Excel • Power BI • DAX
+<img width="1917" height="1077" alt="Screenshot 2026-10-20 103038" src="https://github.com/user-attachments/assets/29caee4d-f60f-4152-80d9-cbfb9111e62f" />
+
+<img width="1917" height="1077" alt="Screenshot 2026-10-20 103120" src="https://github.com/user-attachments/assets/98e1d090-5a2a-41db-8d45-14b21e5cb655" />
+
 
 📌 Project Overview
 
