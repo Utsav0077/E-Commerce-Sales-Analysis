@@ -1,0 +1,54 @@
+SQL Sales Analysis
+
+Objective
+
+Use PostgreSQL to calculate business KPIs and analyze retail sales performance.
+
+Key SQL Techniques
+
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- SUM()
+- COUNT()
+- COUNT(DISTINCT)
+- ROUND()
+- EXTRACT()
+- DATE_TRUNC()
+- HAVING
+- LIMIT
+
+Main Business Questions
+
+1. What is the total sales revenue?
+2. What is the total profit?
+3. What is the overall profit margin?
+4. How many unique orders were placed?
+5. Which categories generate the most revenue?
+6. Which regions are the most profitable?
+7. Which products generate the highest revenue?
+8. Who are the highest-value customers?
+9. How do sales change month by month?
+10. Which subcategories generate losses?
+
+Example SQL Query
+
+SELECT
+    ROUND(SUM(sales), 2) AS total_revenue,
+    ROUND(SUM(profit), 2) AS total_profit,
+    COUNT(DISTINCT order_id) AS total_orders,
+    ROUND(
+        100.0 * SUM(profit) /
+        NULLIF(SUM(sales), 0),
+        2
+    ) AS profit_margin_percentage
+FROM public.superstore_sales;
+
+Power BI Integration
+
+Connected the PostgreSQL database to Power BI Desktop using Import mode.
+
+Created DAX measures for Total Revenue, Total Profit, Total Orders, and Profit Margin.
+
+The complete executable SQL queries are maintained separately in the SQL_Queries folder.

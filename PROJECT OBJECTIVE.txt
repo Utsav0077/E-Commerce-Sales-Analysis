@@ -1,0 +1,38 @@
+E-Commerce & Retail Sales Performance Dashboard
+
+Project Objective
+
+To analyze retail sales data and develop an interactive Power BI dashboard that helps understand revenue, profitability, customer purchasing behavior, product performance, and regional sales trends.
+
+Tools and Technologies
+
+- Microsoft Excel — Data cleaning and validation
+- PostgreSQL — Database management
+- SQL — Business data analysis
+- Power BI — Dashboard development
+- DAX — KPI calculations
+- Power Query — Data transformation
+
+Project Workflow
+
+1. Downloaded the Sample Superstore dataset.
+2. Validated and prepared 9,994 sales records using Excel.
+3. Imported the dataset into PostgreSQL.
+4. Performed SQL analysis on revenue, profit, orders, products, and regions.
+5. Connected PostgreSQL to Power BI.
+6. Developed interactive dashboard pages with KPIs, charts, and slicers.
+
+Key Performance Indicators
+
+- Total Revenue: Approximately 2.30 million
+- Total Profit: Approximately 286,400
+- Total Orders: Approximately 5,009
+- Profit Margin: 12.47%
+
+Deliverables
+
+- Cleaned retail sales dataset
+- PostgreSQL SQL queries
+- Interactive Power BI report
+- Dashboard screenshots
+- Business insights and documentation

@@ -1,0 +1,51 @@
+Dataset Description
+
+Dataset
+
+Sample Superstore — Retail Sales Dataset
+
+Dataset Structure
+
+- Total records: 9,994
+- Total columns: 21
+- Time period: 2014–2017
+- Database: ecommerce_sales
+- Table: public.superstore_sales
+
+Important Columns
+
+Column| Description
+row_id| Unique sales record identifier
+order_id| Customer order identifier
+order_date| Date the order was placed
+ship_date| Date the order was shipped
+customer_id| Unique customer identifier
+segment| Customer segment
+region| Geographic sales region
+category| Product category
+sub_category| Product subcategory
+product_name| Product description
+sales| Sales revenue
+quantity| Number of units sold
+discount| Discount applied
+profit| Profit or loss
+
+Dataset Categories
+
+- Furniture
+- Office Supplies
+- Technology
+
+Customer Segments
+
+- Consumer
+- Corporate
+- Home Office
+
+Geographic Regions
+
+- Central
+- East
+- South
+- West
+

@@ -1,0 +1,31 @@
+Data Cleaning and Preparation
+
+Objective
+
+To prepare the Superstore dataset for accurate SQL analysis and Power BI reporting.
+
+Cleaning and Validation Steps
+
+1. Imported the raw dataset into Microsoft Excel.
+2. Converted the dataset into an Excel table.
+3. Checked important fields for missing values.
+4. Verified Row ID uniqueness.
+5. Validated Sales, Quantity, Discount, and Profit as numeric values.
+6. Checked for invalid sales amounts and quantities.
+7. Verified discount values were within the expected range.
+8. Validated Order Date and Ship Date fields.
+9. Checked for shipping dates occurring before order dates.
+10. Preserved negative profit values for loss analysis.
+11. Removed temporary Excel validation columns.
+12. Exported the cleaned dataset to CSV for PostgreSQL.
+
+Data Quality Results
+
+- Records validated: 9,994
+- Duplicate Row IDs detected: 0
+- Numeric and date validation checks: Passed
+- Final dataset imported successfully into PostgreSQL.
+
+Tools Used
+
+Microsoft Excel, Power Query, PostgreSQL.
